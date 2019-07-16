@@ -18,6 +18,9 @@ As of July 2019 there are three different plugins avialble:
 
 **Note** The KTH team has found that the High Resolution Settlement Layer (HRSL) is more detailed and elaborate than the Global Human Settlement Layer (GHSL). The HRSL is not avialble on a global scale. The users are recommended to first check the availability of HRSL for their area of interest and then move to GHSL if HRSL is not available. 
 
+#### How to install
+1. Navigate to the
+
 ### Cautions
 
 
