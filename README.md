@@ -16,10 +16,41 @@ As of July 2019 there are three different plugins avialble:
   2. One plugin developed for QGIS version 3.2 using the population data obtained from the High Resolution Settlement Layer (available here: https://data.humdata.org/organization/facebook?sort=metadata_modified desc&page=1&q=&ext_page_size=25#dataset-filter-start)
   3. One plugin developed for QGIS version 3.4 (the latest stable version) using the population data obtained from the High Resolution Settlement Layer.
 
-**Note** The KTH team has found that the High Resolution Settlement Layer (HRSL) is more detailed and elaborate than the Global Human Settlement Layer (GHSL). The HRSL is not avialble on a global scale. The users are recommended to first check the availability of HRSL for their area of interest and then move to GHSL if HRSL is not available. 
+**Note:** The KTH team has found that the High Resolution Settlement Layer (HRSL) is more detailed and elaborate than the Global Human Settlement Layer (GHSL). The HRSL is not avialble on a global scale. The users are recommended to first check the availability of HRSL for their area of interest and then move to GHSL if HRSL is not available. 
 
 #### How to install
-1. Navigate to the
+1.	Download the zipped folder onto your computer.
+2.	Open QGIS Desktop make sure that you use version 3.0 or newer. 
+3.	On top of the window you have a number of menus, click on the one that reads Plugins.
+
+Figure 1. Plugin menu
+
+4.	Next, go to Manage and Install Plugins… 
+
+ 
+Figure 2. Mangaement  menu for plugins
+
+5.	This will open a new window with a number of different options on the left-hand side. We will choose Install from ZIP
+ 
+Figure 3. Installing plugins using ZIP-files
+
+6.	In the window that opens click on the three dots next to the empty field to navigate to wherever you saved the zipped plugin folder.
+
+ 
+Figure 4. Click on this button to browse to the zipped file
+
+7.	When you have found it click Install plugin
+ 
+Figure 5. When you have found the zipped folder click on this button to install it
+
+8.	After the plugin has been installed will appear under the Plugins menu on top of the screen. You are now ready to run the plugin.
+
+ 
+Figure 6. This field will appear when the install is completed
+
+ 
+Figure 7. When the plugin is installed it will appear under the database menu with the name "HRSL_clusteringl"
+
 
 ### Cautions
 
