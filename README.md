@@ -1,4 +1,4 @@
-﻿# Clustering-process
+# Clustering-process
 
 This repository contains the by KTH developed QGIS plugin used in order to generate population clusters.   
 
@@ -22,12 +22,7 @@ As of July 2019 there are three different plugins avialble:
 1.	Download the zipped folder onto your computer.
 2.	Open QGIS Desktop make sure that you use version 3.0 or newer. 
 3.	On top of the window you have a number of menus, click on the one that reads Plugins.
-<<<<<<< HEAD
 	[!image1!](/assets/installation/image1.png)
-=======
-![image1](/Img/image1.jpg)
-
->>>>>>> fdff78b9789843a042480762a58829f88819d5f5
 
 4.	Next, go to Manage and Install Plugins… 
 	[!image2!](/assets/installation/image2.png)
