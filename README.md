@@ -23,27 +23,27 @@ As of July 2019 there are three different plugins avialble:
 2.	Open QGIS Desktop make sure that you use version 3.0 or newer. 
 3.	On top of the window you have a number of menus, click on the one that reads Plugins.
 
-	[![image1](https://github.com/babakkhavari/Clustering-process/tree/master/assets/installation/img/image1.jpg)]
+	![image1](https://github.com/babakkhavari/Clustering-process/tree/master/assets/installation/img/image1.jpg)
 
 4.	Next, go to Manage and Install Plugins… 
-	![image2](/assets/installation/image2.jpg)
+	![image2](https://github.com/babakkhavari/Clustering-process/tree/master/assets/installation/img/image2.jpg)
 
 
 5.	This will open a new window with a number of different options on the left-hand side. We will choose Install from ZIP
- 	![image3](/assets/installation/image3.png)
+ 	![image3](https://github.com/babakkhavari/Clustering-process/tree/master/assets/installation/img/image3.jpg)
 
 
 6.	In the window that opens click on the three dots next to the empty field to navigate to wherever you saved the zipped plugin folder.
-	![image4](/assets/installation/image4.png)
+	![image4](https://github.com/babakkhavari/Clustering-process/tree/master/assets/installation/img/image4.jpg)
 
 7.	When you have found it click Install plugin
- 	![image5](/assets/installation/image5.png)
+ 	![image5](https://github.com/babakkhavari/Clustering-process/tree/master/assets/installation/img/image5.jpg)
 
 8.	After the plugin has been installed will appear under the Plugins menu on top of the screen. You are now ready to run the plugin.
-	![image6](/assets/installation/image6.png)
+	![image6](https://github.com/babakkhavari/Clustering-process/tree/master/assets/installation/img/image6.jpg)
 
 8.	When the plugin is installed it appear under the Plugin menu with the name HRSL Clustering.
-	![image7](/assets/installation/image7.png)
+	![image7](https://github.com/babakkhavari/Clustering-process/tree/master/assets/installation/img/image7.jpg)
  
 
 
