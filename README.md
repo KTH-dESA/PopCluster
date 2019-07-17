@@ -63,6 +63,8 @@ As of July 2019 there are three different plugins avialble:
 #### Additional resources needed in order to run the plugins
 In order to run the clustering plugins three datasets are needed. 
 
+1. A population dataset. The population dataset has to be in the form of a raster. This raster will set the base of the clusters. It is recommended that you use the High Resolution Settlement Layer (available [here](https://data.humdata.org/organization/facebook)). If you area of interest is not available in High Resolution Settlement Layer database use the Global Human Settlement Layer instead (available [here](https://ghsl.jrc.ec.europa.eu/))
+
  
 #### How to run the plugins
 
