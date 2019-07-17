@@ -76,7 +76,7 @@ Detailed instructions for how to run the plugin is available [here](Instructions
 
 ### Cautions
 
-* at tje ,pemgweg
+* Make sure that the QGIS version available for your needs is installed on your machine. If you are using the High Resolution Settlement Layer use QGIS 3.4 or QGIS 3.2. If you are using the Global Human Settlement Layer use QGIS 3.2. QGIS 3.4 can be downloaded [here](https://qgis.org/en/site/forusers/download.html) and QGIS 3.2 can be dowloaded [here](http://download.osgeo.org/qgis/)
 
 
 
