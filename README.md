@@ -63,9 +63,11 @@ As of July 2019 there are three different plugins avialble:
 #### Additional resources needed in order to run the plugins
 In order to run the clustering plugins three datasets are needed. 
 
-	**1**.  A population dataset. The population dataset has to be in the form of a raster. This raster will set the base of 	the clusters. It is recommended that you use the High Resolution Settlement Layer (available [here]	(https://data.humdata.org/organization/facebook)). If you area of interest is not available in High Resolution Settlement Layer 	database use the Global Human Settlement Layer instead (available [here](https://ghsl.jrc.ec.europa.eu/))
+**1**.  A population dataset. The population dataset has to be in the form of a raster. This raster will set the base of 	the clusters. It is recommended that you use the High Resolution Settlement Layer (available [here]	(https://data.humdata.org/organization/facebook)). If you area of interest is not available in High Resolution Settlement Layer database use the Global Human Settlement Layer instead (available [here](https://ghsl.jrc.ec.europa.eu/))
 
-**2.**  Administrative boundaries
+**2.**  Administrative boundaries. To run the plugin administrative boundaries are needed. These administrative boundaries will be used to clip your other datasets to the area of interest. They will also be used in order to limit the maximum area of the clusters and therefore it is highly recommended that you choose administrative boundaries that are disaggregated beyond the national borders. Administrative boundaries can be found e.g. [here](https://gadm.org/).
+
+**3.** Nighttime lights. The nighttime lights map show anthropogenic light sources and will be used in order to determine the population living in areas with light emitting infrastructures present. The nighttime lights used are avialble [here](https://eogdata.mines.edu/download_dnb_composites.html). It is recommended that you use the cleaned data with outliers removed. These data are only avialble on a yearly basis and as of July 2019 the latest version is from 2016.
  
 #### How to run the plugins
 
