@@ -1,11 +1,17 @@
-﻿# Clustering-process
+# Clustering-process
 
-This repository contains the by KTH developed QGIS plugin used in order to generate population clusters.   
+This repository contains the by KTH developed QGIS plugin used in order to generate population clusters. Running the plugin will result in a polygon vector file. Each polygon will represent a population cluster. The information contained in these polygons are: 
+
+1. The population in each settlement (**Population**)
+2. A unique identifier for each polygon. This is useful if the polygons are transformed at a later stage and then need to be merged again (**id**).
+3. The maximum value of nighttime light detected in each cluster (**Nightlights**).
+4. The number of people living in areas with detected nighttime light (**ElecPop**).
+5. The area of each cluster (**Area**)
+6. The name of the country/study area (**Country**)
 
 ### Content
 
 This repository contains instruction on how to install and use the clustering plugin developed by KTH as well as three different plugins used for different types of data and versions of QGIS.
-
 
 ### How-to-use Instructions 
 
@@ -53,6 +59,10 @@ As of July 2019 there are three different plugins avialble:
 8.	When the plugin is installed it appear under the Plugin menu with the name HRSL Clustering.
 	
 	![image7](assets/installation/img/image7.jpg)
+	
+#### Additional resources needed in order to run the plugins
+In order to run the clustering plugins three datasets are needed. 
+
  
 #### How to run the plugins
 
