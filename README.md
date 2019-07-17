@@ -23,7 +23,7 @@ As of July 2019 there are three different plugins avialble:
 2.	Open QGIS Desktop make sure that you use version 3.0 or newer. 
 3.	On top of the window you have a number of menus, click on the one that reads Plugins.
 
-	![image1](https://github.com/babakkhavari/Clustering-process/tree/master/assets/installation/img/image1.jpg)
+	![image1](assets/installation/img/image1.jpg)
 
 4.	Next, go to Manage and Install Plugins… 
 	![image2](https://github.com/babakkhavari/Clustering-process/tree/master/assets/installation/img/image2.jpg)
