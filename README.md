@@ -45,11 +45,11 @@ As of July 2019 there are three different plugins avialble:
 
 8.	After the plugin has been installed will appear under the Plugins menu on top of the screen. You are now ready to run the plugin.
 	
-	![image6](master/assets/installation/img/image6.jpg)
+	![image6](assets/installation/img/image6.jpg)
 
 8.	When the plugin is installed it appear under the Plugin menu with the name HRSL Clustering.
 	
-	![image7](hassets/installation/img/image7.jpg)
+	![image7](assets/installation/img/image7.jpg)
  
 
 
