@@ -82,4 +82,6 @@ Detailed instructions for how to run the plugin is available [here](Instructions
 
 ### Supplementary material
 
+* An example is available [here](Equatorial%20Guinea%20example%20case).
 
+* Any questions or bug reports can be submitted here or on in the [OnSSET forum](https://groups.google.com/forum/m/#!forum/onsset)
