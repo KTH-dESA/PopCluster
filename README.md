@@ -56,6 +56,7 @@ As of July 2019 there are three different plugins avialble:
  
 #### How to run the plugins
 
+Detailed instructions for how to run the plugin is available [here](Instructions/How%20to%20run%20the%20clustering%20plugin.docx)
 
 
 ### Cautions
