@@ -1,4 +1,4 @@
-# Clustering-process
+﻿# Clustering-process
 
 This repository contains the by KTH developed QGIS plugin used in order to generate population clusters.   
 
@@ -54,9 +54,12 @@ As of July 2019 there are three different plugins avialble:
 	
 	![image7](assets/installation/img/image7.jpg)
  
+#### How to run the plugins
+
 
 
 ### Cautions
+
 
 
 
