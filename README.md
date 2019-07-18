@@ -16,17 +16,17 @@ This repository contains instruction on how to install and use the clustering pl
 ### How-to-use Instructions 
 
 #### Available versions of the plugin
-As of July 2019 there are three different plugins avialble:
+As of July 2019 there are three different plugins available:
 
-  1. One using the population data obtained from the Global Human Settlement Layer (available [here](https://ghsl.jrc.ec.europa.eu/)). Note that this version of the plugin is only avialble for QGIS version 3.2
+  1. One using the population data obtained from the Global Human Settlement Layer (available [here](https://ghsl.jrc.ec.europa.eu/)). Note that this version of the plugin is only availalble for QGIS version 3.2
   2. One plugin developed for QGIS version 3.2 using the population data obtained from the High Resolution Settlement Layer (available [here](https://data.humdata.org/organization/facebook?sort=metadata_modifieddesc&page=1&q=&ext_page_size=25#dataset-filter-start))
   3. One plugin developed for QGIS version 3.4 (the latest stable version) using the population data obtained from the High Resolution Settlement Layer.
 
-**Note:** The KTH team has found that the High Resolution Settlement Layer (HRSL) is more detailed and elaborate than the Global Human Settlement Layer (GHSL). The HRSL is not avialble on a global scale. The users are recommended to first check the availability of HRSL for their area of interest and then move to GHSL if HRSL is not available. 
+**Note:** The KTH team has found that the High Resolution Settlement Layer (HRSL) is more detailed and elaborate than the Global Human Settlement Layer (GHSL). The HRSL is not available on a global scale. The users are recommended to first check the availability of HRSL for their area of interest and then move to GHSL if HRSL is not available. 
 
 #### How to install
 
-**Note:** Istallation instructions are also avialble as a downloadable document [here](Instructions/Installation%20of%20plugin.docx)
+**Note:** Istallation instructions are also available as a downloadable document [here](Instructions/Installation%20of%20plugin.docx)
 
 1.	Download the zipped folder onto your computer.
 2.	Open QGIS Desktop make sure that you use version 3.0 or newer. 
@@ -67,7 +67,7 @@ In order to run the clustering plugins three datasets are needed.
 
 **2.**  Administrative boundaries. To run the plugin administrative boundaries are needed. These administrative boundaries will be used to clip your other datasets to the area of interest. They will also be used in order to limit the maximum area of the clusters and therefore it is highly recommended that you choose administrative boundaries that are disaggregated beyond the national borders. Administrative boundaries can be found e.g. [here](https://gadm.org/).
 
-**3.** Nighttime lights. The nighttime lights map show anthropogenic light sources and will be used in order to determine the population living in areas with light emitting infrastructures present. The nighttime lights used are avialble [here](https://eogdata.mines.edu/download_dnb_composites.html). It is recommended that you use the cleaned data with outliers removed. These data are only avialble on a yearly basis and as of July 2019 the latest version is from 2016.
+**3.** Nighttime lights. The nighttime lights map show anthropogenic light sources and will be used in order to determine the population living in areas with light emitting infrastructures present. The nighttime lights used are avialable [here](https://eogdata.mines.edu/download_dnb_composites.html). It is recommended that you use the cleaned data with outliers removed. These data are only available on a yearly basis and as of July 2019 the latest version is from 2016.
  
 #### How to run the plugins
 
