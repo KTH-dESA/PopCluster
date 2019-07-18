@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/197186462.svg)](https://zenodo.org/badge/latestdoi/197186462)
+
 # Clustering-process
 
 This repository contains the by KTH developed QGIS plugin used in order to generate population clusters. Running the plugin will result in a polygon vector file. Each polygon will represent a population cluster. The information contained in these polygons are: 
