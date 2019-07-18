@@ -1,5 +1,4 @@
-.. image:: https://zenodo.org/badge/197186462.svg
-   :target: https://zenodo.org/badge/latestdoi/197186462
+[![DOI](https://zenodo.org/badge/197186462.svg)](https://zenodo.org/badge/latestdoi/197186462)
 
 # Clustering-process
 
