@@ -1,4 +1,5 @@
-[![DOI](https://zenodo.org/badge/197186462.svg)](https://zenodo.org/badge/latestdoi/197186462)
+.. image:: https://zenodo.org/badge/197186462.svg
+   :target: https://zenodo.org/badge/latestdoi/197186462
 
 # Clustering-process
 
@@ -75,7 +76,7 @@ In order to run the clustering plugins three datasets are needed.
 
 Detailed instructions for how to run the plugin is available [here](Instructions/How%20to%20run%20the%20clustering%20plugin.docx)
 
-s
+
 ### Cautions
 
 * Make sure that the QGIS version available for your needs is installed on your machine. If you are using the High Resolution Settlement Layer use QGIS 3.4 or QGIS 3.2. If you are using the Global Human Settlement Layer use QGIS 3.2. QGIS 3.4 can be downloaded [here](https://qgis.org/en/site/forusers/download.html) and QGIS 3.2 can be dowloaded [here](http://download.osgeo.org/qgis/)
