@@ -80,7 +80,7 @@ If succesful, the resulted layer will be added on your contect panel. The result
 2. **Country** - the name of the country/study area 
 3. **Population** - population in defined year (based on HRSL published date)
 4. **Area** - the area of each cluster (in sq.km)
-5. **Nightlights** - the maximum value of nighttime light detected in each cluster (0-64)
+5. **Nightlights** - the maximum value of nighttime light detected in each cluster
 6. **ElecPop** - the number of people living in areas with detected nighttime light
 
 Sample input/output files are available for Equatorial Guinea [here](Equatorial%20Guinea%20example%20case).
