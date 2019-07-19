@@ -7,11 +7,11 @@ PopCluster is a QGIS plugin that uses raster population, night-time light and ad
 ## Versions
 As of July 2019, there are three available versions of the plugin:
 
- * **Version 1.** Plugin developed for QGIS 3.2 and works with the [High Resolution Settlement Layer](https://data.humdata.org/organization/facebook?sort=metadata_modifieddesc&page=1&q=&ext_page_size=25#dataset-filter-start)
- * **Version 2.** Plugin developed for QGIS 3.4 (the latest stable version) and works with the [High Resolution Settlement Layer](https://data.humdata.org/organization/facebook?sort=metadata_modifieddesc&page=1&q=&ext_page_size=25#dataset-filter-start)
- * **Version 3.** Plugin developed for QGIS 3.2 and works with the [Global Human Settlement Layer](https://ghsl.jrc.ec.europa.eu/)
+ * **Version 1.** Plugin developed for QGIS 3.4 (the latest stable version) and works with HRSL
+ * **Version 2.** Plugin developed for QGIS 3.2 and works with HRSL 
+ * **Version 3.** Plugin developed for QGIS 3.2 and works with GHS
 
-We recommend using a HRSL based version. The GHS based version shall be used only if HRSL is not available for your area of interest.
+**Note!** We recommend using a HRSL based version. The GHS based version shall be used only if HRSL is not available for your area of interest.
 
 ## Installation 
 
@@ -69,7 +69,7 @@ We recommend using a HRSL based version. The GHS based version shall be used onl
 
 2.	Add necessary input layers
 
-* The population raster file (HRSL or GHS)
+* The population raster file ([HRSL](https://data.humdata.org/organization/facebook?sort=metadata_modifieddesc&page=1&q=&ext_page_size=25#dataset-filter-start) or [GHS](https://ghsl.jrc.ec.europa.eu/))
 * The admin boundaries layer for the area of interest (e.g. [GADM](https://gadm.org/))
 * The nighttime lights raster layer (avialable [here](https://eogdata.mines.edu/download_dnb_composites.html))
 
