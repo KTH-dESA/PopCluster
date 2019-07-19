@@ -1,28 +1,26 @@
 [![DOI](https://zenodo.org/badge/197186462.svg)](https://zenodo.org/badge/latestdoi/197186462)
 
-# Clustering-process
+# PopCluster
 
-This repository contains the by KTH developed QGIS plugin used in order to generate population clusters. Running the plugin will result in a polygon vector file. Each polygon will represent a population cluster. The information contained in these polygons are: 
+PopCluster is a QGIS plugin that uses raster population layers to generate vector based (polygon) population settlements or else "population clustes". The result clusters are attributed with the following information:
 
-1. The population in each settlement (**Population**)
-2. A unique identifier for each polygon. This is useful if the polygons are transformed at a later stage and then need to be merged again (**id**).
-3. The maximum value of nighttime light detected in each cluster (**Nightlights**).
-4. The number of people living in areas with detected nighttime light (**ElecPop**).
-5. The area of each cluster (**Area**)
-6. The name of the country/study area (**Country**)
-
-### Content
-
-This repository contains instruction on how to install and use the clustering plugin developed by KTH as well as three different plugins used for different types of data and versions of QGIS.
+1. **id** - a unique identifier for each cluster
+2. **Country** - the name of the country/study area 
+3. **Population** - population in defined year (based on HRSL published date)
+4. **Area** - the area of each cluster (in sq.km)
+5. **Nightlights** - the maximum value of nighttime light detected in each cluster (0-64)
+6. **ElecPop** - the number of people living in areas with detected nighttime light
 
 ### How-to-use Instructions 
 
-#### Available versions of the plugin
-As of July 2019 there are three different plugins available:
+#### Versions
+As of July 2019 there are three different versions of the plugin available. 
 
-  1. One using the population data obtained from the Global Human Settlement Layer (available [here](https://ghsl.jrc.ec.europa.eu/)). Note that this version of the plugin is only availalble for QGIS version 3.2
-  2. One plugin developed for QGIS version 3.2 using the population data obtained from the High Resolution Settlement Layer (available [here](https://data.humdata.org/organization/facebook?sort=metadata_modifieddesc&page=1&q=&ext_page_size=25#dataset-filter-start))
-  3. One plugin developed for QGIS version 3.4 (the latest stable version) using the population data obtained from the High Resolution Settlement Layer.
+ * **Version 1.** Plugin developed for QGIS 3.2 and works with the [High Resolution Settlement Layer](https://data.humdata.org/organization/facebook?sort=metadata_modifieddesc&page=1&q=&ext_page_size=25#dataset-filter-start)
+ * **Version 2.** Plugin developed for QGIS 3.4 (the latest stable version) and works with the [High Resolution Settlement Layer](https://data.humdata.org/organization/facebook?sort=metadata_modifieddesc&page=1&q=&ext_page_size=25#dataset-filter-start)
+ * **Version 3.** Plugin developed for QGIS 3.2 and works with the [Global Human Settlement Layer](https://ghsl.jrc.ec.europa.eu/))
+
+Please select one of the above to proceed.  
 
 #### How to install
 
