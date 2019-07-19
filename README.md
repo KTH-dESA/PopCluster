@@ -13,9 +13,9 @@ As of July 2019, there are three available versions of the plugin:
 
 We recommend using a HRSL based version. The GHS based version shall be used only if HRSL is not available for your area of interest.
 
-### Installation 
+## Installation 
 
-#### Requirements (Babak please add accordingly)
+### Requirements (Babak please add accordingly)
 
 - QGIS [3.2](http://download.osgeo.org/qgis/) or [3.4](https://qgis.org/en/site/forusers/download.html)
 - Python >= 3.5 with the following packages installed:
@@ -29,7 +29,7 @@ We recommend using a HRSL based version. The GHS based version shall be used onl
 	- six>=1.12
 	- xlrd>=1.2
 
-#### Adding plugin on QGIS
+### Adding plugin on QGIS
 
 1.	Download the zipped plugin folder onto your computer.
 2.	Open QGIS Desktop (proper version)
@@ -61,23 +61,21 @@ We recommend using a HRSL based version. The GHS based version shall be used onl
 	
 	![image7](assets/installation/img/image7.jpg)
 	
-#### How to run the plugin
+## Using the plugin
 
-**STEP 1.** Open the plugin in QGIS
-
-<< add snapshot >>
-
-**STEP 2.** Add necessary input layers
-
-1. The population raster file (HRSL or GHS)
-
-2. The admin boundaries layer for the area of interest (e.g. [GADM](https://gadm.org/)).
-
-3. The nighttime lights raster layer (avialable [here](https://eogdata.mines.edu/download_dnb_composites.html)).
+1.	Open the plugin in QGIS
 
 << add snapshot >>
 
-**STEP 3.** Run the plugin
+2.	Add necessary input layers
+
+* The population raster file (HRSL or GHS)
+* The admin boundaries layer for the area of interest (e.g. [GADM](https://gadm.org/))
+* The nighttime lights raster layer (avialable [here](https://eogdata.mines.edu/download_dnb_composites.html))
+
+<< add snapshot >>
+
+3.	Run the plugin
 
 << add snapshot >>
 
