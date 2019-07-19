@@ -24,8 +24,6 @@ As of July 2019 there are three different plugins available:
   2. One plugin developed for QGIS version 3.2 using the population data obtained from the High Resolution Settlement Layer (available [here](https://data.humdata.org/organization/facebook?sort=metadata_modifieddesc&page=1&q=&ext_page_size=25#dataset-filter-start))
   3. One plugin developed for QGIS version 3.4 (the latest stable version) using the population data obtained from the High Resolution Settlement Layer.
 
-**Note:** The KTH team has found that the High Resolution Settlement Layer (HRSL) is more detailed and elaborate than the Global Human Settlement Layer (GHSL). The HRSL is not available on a global scale. The users are recommended to first check the availability of HRSL for their area of interest and then move to GHSL if HRSL is not available. 
-
 #### How to install
 
 **Note:** Istallation instructions are also available as a downloadable document [here](Instructions/Installation%20of%20plugin.docx)
