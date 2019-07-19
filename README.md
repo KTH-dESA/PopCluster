@@ -90,7 +90,7 @@ If succesful, the resulted layer will be added on your contect panel. The result
 
 Sample input/output files are available for Equatorial Guinea [here](Equatorial%20Guinea%20example%20case).
 
-### Cautions
+## Cautions
 
 * The admin boundaries layer is used to delineate the area of interest and to limit the maximum area of the clusters;therefore it is highly recommended that you choose administrative boundaries that are disaggregated beyond the national borders.
 
@@ -99,7 +99,7 @@ Sample input/output files are available for Equatorial Guinea [here](Equatorial%
 * As of July 2019 the nighttime light map is mandatory to run the plugin. This will be updated in future versions of the plugin in which the use of nighttime lights will be optional.
 
 
-### Supplementary material
+## Supplementary material
 
 * The methodology behind the plugin is published and publicly available [here](https://www.mdpi.com/1996-1073/12/7/1395)
 
