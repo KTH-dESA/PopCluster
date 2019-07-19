@@ -60,7 +60,7 @@ As of July 2019, there are three available versions of the plugin:
 
 1.	Open the plugin in QGIS
 
-![image1](assets/running/img/image1.jpg)
+![image1](assets/running/img/image1.JPG)
 
 2.	Add necessary input layers
 
@@ -68,7 +68,7 @@ As of July 2019, there are three available versions of the plugin:
 * The admin boundaries layer for the area of interest (e.g. [GADM](https://gadm.org/))
 * The nighttime lights raster layer ([VIIRS](https://eogdata.mines.edu/download_dnb_composites.html))
 
-![image2](assets/running/img/image2.jpg)
+![image2](assets/running/img/image2.JPG)
 
 3.	Run the plugin
 
