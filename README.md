@@ -37,7 +37,7 @@ We recommend using a HRSL based version. The GHS based version shall be used onl
 
 	![image1](assets/installation/img/image1.jpg)
 
-4.	Go to "Manage and Install Plugins"
+4.	Go to "Manage and Install Plugins..."
 
 	![image2](assets/installation/img/image2.jpg)
 
@@ -49,32 +49,39 @@ We recommend using a HRSL based version. The GHS based version shall be used onl
 	
 	![image4](assets/installation/img/image4.jpg)
 
-7.	Select it and click **Install plugin**
+7.	Select it and click "Install plugin"
  	
 	![image5](assets/installation/img/image5.jpg)
 
-8.	After the plugin has been installed will appear under the "Plugins" menu on top of the screen.
+8.	An installation progress bar will appear on top of the screen
 	
 	![image6](assets/installation/img/image6.jpg)
 
-9.	When the plugin is installed it appear under the Plugin menu with the name HRSL Clustering.
+9.	After the plugin is installed it appear under the "Plugins" menu with the name HRSL Clustering. It is now ready to use!
 	
 	![image7](assets/installation/img/image7.jpg)
 	
+#### How to run the plugin
 
-#### How to run the plugins
+**STEP 1.** Open the plugin in QGIS
 
-Detailed instructions for how to run the plugin is available [here](Instructions/How%20to%20run%20the%20clustering%20plugin.docx)
+<< add snapshot >>
 
-**Input layers needed in order to run the plugin** 
+**STEP 2.** Add necessary input layers
 
-* A population dataset. The population dataset has to be in the form of a raster. This raster will set the base of the clusters. It is recommended that you use the High Resolution Settlement Layer (available [here](https://data.humdata.org/organization/facebook)). If you area of interest is not available in High Resolution Settlement Layer database use the Global Human Settlement Layer instead (available [here](https://ghsl.jrc.ec.europa.eu/))
+1. The population raster file (HRSL or GHS)
 
-* Administrative boundaries. To run the plugin administrative boundaries are needed. These administrative boundaries will be used to clip your other datasets to the area of interest. They will also be used in order to limit the maximum area of the clusters and therefore it is highly recommended that you choose administrative boundaries that are disaggregated beyond the national borders. Administrative boundaries can be found e.g. [here](https://gadm.org/).
+2. The admin boundaries layer for the area of interest (e.g. [GADM](https://gadm.org/)).
 
-* Nighttime lights. The nighttime lights map show anthropogenic light sources and will be used in order to determine the population living in areas with light emitting infrastructures present. The nighttime lights used are avialable [here](https://eogdata.mines.edu/download_dnb_composites.html). It is recommended that you use the cleaned data with outliers removed. These data are only available on a yearly basis and as of July 2019 the latest version is from 2016.
+3. The nighttime lights raster layer (avialable [here](https://eogdata.mines.edu/download_dnb_composites.html)).
 
-The resulted clusters are attributed with the following information:
+<< add snapshot >>
+
+**STEP 3.** Run the plugin
+
+<< add snapshot >>
+
+If succesful, the resulted layer will be added on your contect panel. The resulted cluster are attributed the following information:
 
 1. **id** - a unique identifier for each cluster
 2. **Country** - the name of the country/study area 
@@ -83,19 +90,21 @@ The resulted clusters are attributed with the following information:
 5. **Nightlights** - the maximum value of nighttime light detected in each cluster (0-64)
 6. **ElecPop** - the number of people living in areas with detected nighttime light
 
+Sample input/output files are available for Equatorial Guinea [here](Equatorial%20Guinea%20example%20case).
 
 ### Cautions
 
-* Make sure that the QGIS version available for your needs is installed on your machine. If you are using the High Resolution Settlement Layer use QGIS 3.4 or QGIS 3.2. If you are using the Global Human Settlement Layer use QGIS 3.2. QGIS 3.4 can be downloaded [here](https://qgis.org/en/site/forusers/download.html) and QGIS 3.2 can be dowloaded [here](http://download.osgeo.org/qgis/)
+* The admin boundaries layer is used to delineate the area of interest and to limit the maximum area of the clusters;therefore it is highly recommended that you choose administrative boundaries that are disaggregated beyond the national borders.
+
+* The nighttime lights map show anthropogenic light sources and will be used in order to determine the population living in areas with light emitting infrastructures present. It is recommended that you use the cleaned data with outliers removed. These data are only available on a yearly basis and as of July 2019 the latest version is from 2016.
 
 * As of July 2019 the nighttime light map is mandatory to run the plugin. This will be updated in future versions of the plugin in which the use of nighttime lights will be optional.
 
+
 ### Supplementary material
 
-* An academic publication supporting the methodology is available [here](https://www.mdpi.com/1996-1073/12/7/1395)
+* The methodology behind the plugin is published and publicly available [here](https://www.mdpi.com/1996-1073/12/7/1395)
 
-* An example is available [here](Equatorial%20Guinea%20example%20case).
+* For any bugs reported please raise an issue on this repository
 
-* Any questions or bug reports can be submitted here or on in the [OnSSET forum](https://groups.google.com/forum/m/#!forum/onsset)
-
-* For any additional information please contact the KTH team [here](http://www.onsset.org/contact--forum.html)
+* For any additional information please contact the [KTH team](http://www.onsset.org/contact--forum.html)
