@@ -28,7 +28,7 @@ As of July 2019 there are three different plugins available:
 
 **Note:** Istallation instructions are also available as a downloadable document [here](Instructions/Installation%20of%20plugin.docx)
 
-1.	Download the zipped folder onto your computer.
+1.	Download the zipped plugin folder onto your computer.
 2.	Open QGIS Desktop make sure that you use version 3.0 or newer. 
 3.	On top of the window you have a number of menus, click on the one that reads Plugins.
 
