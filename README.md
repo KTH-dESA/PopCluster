@@ -48,7 +48,7 @@ As of July 2019 there are three different plugins available:
 	
 	![image4](assets/installation/img/image4.jpg)
 
-7.	When you have found it click Install plugin
+7.	When you have found it, select it and click **Install plugin**
  	
 	![image5](assets/installation/img/image5.jpg)
 
@@ -56,7 +56,7 @@ As of July 2019 there are three different plugins available:
 	
 	![image6](assets/installation/img/image6.jpg)
 
-8.	When the plugin is installed it appear under the Plugin menu with the name HRSL Clustering.
+9.	When the plugin is installed it appear under the Plugin menu with the name HRSL Clustering.
 	
 	![image7](assets/installation/img/image7.jpg)
 	
