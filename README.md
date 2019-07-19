@@ -60,7 +60,7 @@ As of July 2019, there are three available versions of the plugin:
 
 1.	Open the plugin in QGIS
 
-<< add snapshot >>
+![image1](assets/Running/img/image1.jpg)
 
 2.	Add necessary input layers
 
@@ -68,13 +68,12 @@ As of July 2019, there are three available versions of the plugin:
 * The admin boundaries layer for the area of interest (e.g. [GADM](https://gadm.org/))
 * The nighttime lights raster layer ([VIIRS](https://eogdata.mines.edu/download_dnb_composites.html))
 
-<< add snapshot >>
+![image2](assets/Running/img/image2.jpg)
 
 3.	Run the plugin
 
-<< add snapshot >>
 
-If succesful, the resulted layer will be added on your contect panel. The resulted cluster are attributed the following information:
+If succesful, the resulting layer will be added in your workspace. The resulting clusters are attributed the following information:
 
 1. **id** - a unique identifier for each cluster
 2. **Country** - the name of the country/study area 
