@@ -15,7 +15,7 @@ As of July 2019, there are three available versions of the plugin:
 
 ## Installation 
 
-### Requirements (Babak please add accordingly)
+### Requirements
 
 - QGIS [3.2](http://download.osgeo.org/qgis/) or [3.4](https://qgis.org/en/site/forusers/download.html)
 - Python >= 3.6 with the following packages installed:
