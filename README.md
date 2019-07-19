@@ -11,7 +11,7 @@ PopCluster is a QGIS plugin that uses raster population layers to generate vecto
 5. **Nightlights** - the maximum value of nighttime light detected in each cluster (0-64)
 6. **ElecPop** - the number of people living in areas with detected nighttime light
 
-### How-to-use Instructions 
+### Installation 
 
 #### Versions
 As of July 2019 there are three different versions of the plugin available. 
@@ -21,6 +21,19 @@ As of July 2019 there are three different versions of the plugin available.
  * **Version 3.** Plugin developed for QGIS 3.2 and works with the [Global Human Settlement Layer](https://ghsl.jrc.ec.europa.eu/))
 
 Please select one of the above to proceed.  
+
+#### Requirements
+
+gep_onsset requires Python >= 3.5 with the following packages installed:
+- et-xmlfile>=1.0
+- jdcal>=1.4
+- numpy>=1.16
+- openpyxl>=2.6
+- pandas>=0.24
+- python-dateutil>=2.8
+- pytz==2019.1
+- six>=1.12
+- xlrd>=1.2
 
 #### How to install
 
@@ -59,9 +72,9 @@ Please select one of the above to proceed.
 	![image7](assets/installation/img/image7.jpg)
 	
 #### Additional resources needed in order to run the plugins
-In order to run the clustering plugins three datasets are needed. 
+In order to run the plugin three input datasets are needed. 
 
-**1**.  A population dataset. The population dataset has to be in the form of a raster. This raster will set the base of 	the clusters. It is recommended that you use the High Resolution Settlement Layer (available [here](https://data.humdata.org/organization/facebook)). If you area of interest is not available in High Resolution Settlement Layer database use the Global Human Settlement Layer instead (available [here](https://ghsl.jrc.ec.europa.eu/))
+**1**.  A population dataset. The population dataset has to be in the form of a raster. This raster will set the base of the clusters. It is recommended that you use the High Resolution Settlement Layer (available [here](https://data.humdata.org/organization/facebook)). If you area of interest is not available in High Resolution Settlement Layer database use the Global Human Settlement Layer instead (available [here](https://ghsl.jrc.ec.europa.eu/))
 
 **2.**  Administrative boundaries. To run the plugin administrative boundaries are needed. These administrative boundaries will be used to clip your other datasets to the area of interest. They will also be used in order to limit the maximum area of the clusters and therefore it is highly recommended that you choose administrative boundaries that are disaggregated beyond the national borders. Administrative boundaries can be found e.g. [here](https://gadm.org/).
 
