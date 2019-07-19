@@ -39,7 +39,7 @@ As of July 2019 there are three different plugins available:
 	![image2](assets/installation/img/image2.jpg)
 
 
-5.	This will open a new window with a number of different options on the left-hand side. We will choose Install from ZIP
+5.	This will open a new window with a number of different options on the left-hand side. Choose Install from ZIP
  	
 	![image3](assets/installation/img/image3.jpg)
 
