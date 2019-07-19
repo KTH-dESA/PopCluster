@@ -18,16 +18,11 @@ As of July 2019, there are three available versions of the plugin:
 ### Requirements (Babak please add accordingly)
 
 - QGIS [3.2](http://download.osgeo.org/qgis/) or [3.4](https://qgis.org/en/site/forusers/download.html)
-- Python >= 3.5 with the following packages installed:
-	- et-xmlfile>=1.0
-	- jdcal>=1.4
-	- numpy>=1.16
-	- openpyxl>=2.6
-	- pandas>=0.24
-	- python-dateutil>=2.8
-	- pytz==2019.1
-	- six>=1.12
-	- xlrd>=1.2
+- Python >= 3.6 with the following packages installed:
+	- PyQt5
+	- shutil
+	- qgis
+	- datetime
 
 ### Adding plugin on QGIS
 
