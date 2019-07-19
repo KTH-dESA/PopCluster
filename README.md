@@ -71,7 +71,7 @@ As of July 2019, there are three available versions of the plugin:
 
 * The population raster file ([HRSL](https://data.humdata.org/organization/facebook?sort=metadata_modifieddesc&page=1&q=&ext_page_size=25#dataset-filter-start) or [GHS](https://ghsl.jrc.ec.europa.eu/))
 * The admin boundaries layer for the area of interest (e.g. [GADM](https://gadm.org/))
-* The nighttime lights raster layer (avialable [here](https://eogdata.mines.edu/download_dnb_composites.html))
+* The nighttime lights raster layer ([VIIRS](https://eogdata.mines.edu/download_dnb_composites.html))
 
 << add snapshot >>
 
