@@ -18,11 +18,11 @@ As of July 2019 there are three different versions of the plugin available.
 
  * **Version 1.** Plugin developed for QGIS 3.2 and works with the [High Resolution Settlement Layer](https://data.humdata.org/organization/facebook?sort=metadata_modifieddesc&page=1&q=&ext_page_size=25#dataset-filter-start)
  * **Version 2.** Plugin developed for QGIS 3.4 (the latest stable version) and works with the [High Resolution Settlement Layer](https://data.humdata.org/organization/facebook?sort=metadata_modifieddesc&page=1&q=&ext_page_size=25#dataset-filter-start)
- * **Version 3.** Plugin developed for QGIS 3.2 and works with the [Global Human Settlement Layer](https://ghsl.jrc.ec.europa.eu/))
+ * **Version 3.** Plugin developed for QGIS 3.2 and works with the [Global Human Settlement Layer](https://ghsl.jrc.ec.europa.eu/)
 
-Please select one of the above to proceed.  
+Please select one of the above to proceed. We recommend using the HRSL if available for your area of interest; GHS shall be used only as a secondary option.
 
-#### Requirements
+#### Requirements (Babak please add accordingly)
 
 gep_onsset requires Python >= 3.5 with the following packages installed:
 - et-xmlfile>=1.0
@@ -71,18 +71,18 @@ gep_onsset requires Python >= 3.5 with the following packages installed:
 	
 	![image7](assets/installation/img/image7.jpg)
 	
-#### Additional resources needed in order to run the plugins
-In order to run the plugin three input datasets are needed. 
 
-**1**.  A population dataset. The population dataset has to be in the form of a raster. This raster will set the base of the clusters. It is recommended that you use the High Resolution Settlement Layer (available [here](https://data.humdata.org/organization/facebook)). If you area of interest is not available in High Resolution Settlement Layer database use the Global Human Settlement Layer instead (available [here](https://ghsl.jrc.ec.europa.eu/))
-
-**2.**  Administrative boundaries. To run the plugin administrative boundaries are needed. These administrative boundaries will be used to clip your other datasets to the area of interest. They will also be used in order to limit the maximum area of the clusters and therefore it is highly recommended that you choose administrative boundaries that are disaggregated beyond the national borders. Administrative boundaries can be found e.g. [here](https://gadm.org/).
-
-**3.** Nighttime lights. The nighttime lights map show anthropogenic light sources and will be used in order to determine the population living in areas with light emitting infrastructures present. The nighttime lights used are avialable [here](https://eogdata.mines.edu/download_dnb_composites.html). It is recommended that you use the cleaned data with outliers removed. These data are only available on a yearly basis and as of July 2019 the latest version is from 2016.
- 
 #### How to run the plugins
 
 Detailed instructions for how to run the plugin is available [here](Instructions/How%20to%20run%20the%20clustering%20plugin.docx)
+
+**Input layers needed in order to run the plugin** 
+
+* A population dataset. The population dataset has to be in the form of a raster. This raster will set the base of the clusters. It is recommended that you use the High Resolution Settlement Layer (available [here](https://data.humdata.org/organization/facebook)). If you area of interest is not available in High Resolution Settlement Layer database use the Global Human Settlement Layer instead (available [here](https://ghsl.jrc.ec.europa.eu/))
+
+* Administrative boundaries. To run the plugin administrative boundaries are needed. These administrative boundaries will be used to clip your other datasets to the area of interest. They will also be used in order to limit the maximum area of the clusters and therefore it is highly recommended that you choose administrative boundaries that are disaggregated beyond the national borders. Administrative boundaries can be found e.g. [here](https://gadm.org/).
+
+* Nighttime lights. The nighttime lights map show anthropogenic light sources and will be used in order to determine the population living in areas with light emitting infrastructures present. The nighttime lights used are avialable [here](https://eogdata.mines.edu/download_dnb_composites.html). It is recommended that you use the cleaned data with outliers removed. These data are only available on a yearly basis and as of July 2019 the latest version is from 2016.
 
 
 ### Cautions
