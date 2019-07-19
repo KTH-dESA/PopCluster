@@ -44,7 +44,7 @@ As of July 2019 there are three different plugins available:
 	![image3](assets/installation/img/image3.jpg)
 
 
-6.	In the window that opens click on the three dots next to the empty field to navigate to wherever you saved the zipped plugin folder.
+6.	In the window that opens click on the three dots next to the empty field to navigate to where you saved the zipped plugin folder.
 	
 	![image4](assets/installation/img/image4.jpg)
 
