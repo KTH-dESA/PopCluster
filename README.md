@@ -26,6 +26,8 @@ As of September 2019, there are three available versions of the plugin:
 
 ### Adding plugin in QGIS
 
+**Note!** Detailed instruction on how to install and use the plugin is available in the "Instructions" folder.
+
 1.	Download the zipped plugin folder onto your computer.
 2.	Open QGIS Desktop (proper version)
 3.	Click on the "Plugins" menu
