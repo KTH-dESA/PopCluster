@@ -5,7 +5,7 @@
 PopCluster is a QGIS plugin that uses raster population, night-time light and administrative boundaries to generate vector based (polygon) population settlements or else "population clusters". 
 
 ## Plugin options
-As of March 2020, four are three available versions of the plugin:
+As of March 2020, there are four available versions of the plugin:
 
  * **Option 1.** Plugin developed for QGIS 3.10 (the latest stable version) and works with HRSL
  * **Option 2.** Plugin developed for QGIS 3.4 and works with HRSL
